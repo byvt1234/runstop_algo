@@ -1,0 +1,41 @@
+# Python bytecode / test caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE / operating-system metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+__MACOSX/
+._*
+
+# Logs, archives, and generated route previews
+*.log
+*.zip
+algo/routes_map.html
+routes_map.html
+
+# Local routing datasets (source-only repository)
+algo/data/*.graphml
+algo/data/*.pkl
+datasets/**/*.npy
+datasets/**/*.csv
+datasets/**/*.geojson
+datasets/**/*_meta.json

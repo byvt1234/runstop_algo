@@ -1,0 +1,16 @@
+# ── 알고리즘 런타임 (pipeline.recommend) ──────────────────────────
+networkx>=3.0
+numpy>=1.24
+scipy>=1.10
+pyproj>=3.5
+pandas>=2.0
+shapely>=2.0
+geopandas>=1.0          # nature.py — 공원/하천 geojson 로드
+
+# ── API 서버 ────────────────────────────────────────────────────
+fastapi>=0.110
+uvicorn[standard]>=0.29
+
+# ── 1회성 도구 (배포에는 불필요) ─────────────────────────────────
+# osmnx>=2.0            # 원본 그래프/폴리곤 재생성 시에만
+folium>=0.19            # [draw_map 변경] 코스 HTML 지도 생성에 필요
